@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "苹方";
+	background: #f6f6f6;
+}
+.biaotilan{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	font-size: 0.36rem;
+	color: #ff5353;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.biaotilan .a{
+	width: 0.26rem;
+	height: 100%;
+	background-image: url('../img/fanhuijian@2x.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	margin-left: 0.24rem;
+}
+.biaotilan .c{
+	width: 0.39rem;
+	height: 100%;
+	background-image: url('../img/fenlei@2x.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+	margin-right: 0.24rem;
+}
+.biaoti{
+	width: 100%;
+	height: 1.32rem;
+	margin-top: 0.88rem;
+}
+.biaoti .btop{
+	width: 100%;
+	height: 0.52rem;
+	padding-top: 0.32rem;
+}
+.biaoti .btop .changxian{
+	width: 0.81rem;
+	height: 0.01rem;
+	background: #ff5353;
+	float: left;
+	margin: 0.26rem 0rem auto 2.09rem;
+}
+.biaoti .btop .changxian2{
+	width: 0.81rem;
+	height: 0.01rem;
+	background: #ff5353;
+	float: left;
+	margin: 0.26rem 2.09rem auto 0rem;
+}
+.biaoti .btop .duanxian{
+	width: 0.08rem;
+	height: 0.03rem;
+	background: #ff5353;
+	float: left;
+	margin: 0.25rem 0rem auto 0rem;
+	/* margin: auto 0rem; */
+}
+.biaoti .btop .wenzi{
+	width: 1.52rem;
+	height: 0.48rem;
+	font-size: 0.36rem;
+	color: #ff5353;
+	float: left;
+	text-align: center;
+	line-height: 0.52rem;
+	font-weight: 900;
+}
+.biaoti .bbottom .wenzi{
+	width: 1.87rem;
+	height: 0.27rem;
+	background: #ff5353;
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.27rem;
+	margin: 0 auto;
+}
+.zhuti{
+	width: 7.02rem;
+	height: 14rem;
+	margin-left: 0.24rem;
+}
+.zhuti .left{
+	width: 3.4rem;
+	height: 12.9rem;
+	float: left;
+}
+.zhuti .right{
+	width: 3.4rem;
+	height: 12.9rem;
+	float: left;
+	margin-left: 0.19rem;
+}
+.zhuti .left .a{
+	width: 3.4rem;
+	height: 4.16rem;
+	background: #fff;
+	margin-top: 0.25rem;
+}
+.zhuti .left .a:nth-child(1){
+	margin-top: 0rem;
+}
+.zhuti .left .a:nth-child(2){
+	height: 4.6rem;	
+}
+.zhuti .right .a{
+	width: 3.4rem;
+	height: 4.16rem;
+	background: #fff;
+	margin-top: 0.25rem;
+}
+.zhuti .right .a:nth-child(1){
+	margin-top: 0rem;
+	height: 5.04rem;
+}
+.zhuti .right .a:nth-child(2){
+	/* height: 5.04rem;	 */
+}
+.zhuti .left .a .left1{
+	width: 100%;
+	height: 2.71rem;
+}
+.zhuti .left .a:nth-child(2) .left1{
+	height: 3.07rem;
+}
+.zhuti .left .a .left1 img{
+	display: block;
+	float: left;
+	margin: 0.28rem auto;
+	margin-left: 0.4rem;
+}
+.zhuti .left .a .right1 .font1{
+	font-size: 0.26rem;
+	color: #585858;
+	/* margin-top: 0.55rem; */
+	font-weight: bold;
+	margin-left: 0.22rem;
+}
+.zhuti .left .a .right1 .font2{
+	font-size: 0.22rem;
+	color: #ff5353;
+	/* margin-top: 0.55rem; */
+	font-weight: bold;
+	margin-top: 0.09rem;
+	margin-left: 0.22rem;
+}
+.zhuti .left .a .right1 .font3{
+	width: 0.67rem;
+	font-size: 0.3rem;
+	color: #ff5353;
+	/* margin-top: 0.55rem; */
+	font-weight: bold;
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.22rem;
+}
+.zhuti .left .a .right1 .font4{
+	width: 1.72rem;
+	font-size: 0.28rem;
+	color: #ffcfcf;
+	/* margin-top: 0.55rem; */
+	font-weight: bold;
+	float: left;
+	margin-top: 0.15rem;
+}
+.zhuti .left .a .right1 .font5{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: url('../img/gouwuche@2x.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+.zhuti .right .a .left1{
+	width: 100%;
+	height: 2.71rem;
+}
+.zhuti .right .a:nth-child(1) .left1{
+	height: 3.56rem;
+}
+.zhuti .right .a .left1 img{
+	display: block;
+	float: left;
+	margin: 0.28rem auto;
+	margin-left: 0.4rem;
+}
+.zhuti .right .a:nth-child(3) img{
+	margin: 0rem auto;
+	margin-left: 0rem;
+}
+.zhuti .right .a .right1 .font1{
+	font-size: 0.26rem;
+	color: #585858;
+	/* margin-top: 0.55rem; */
+	font-weight: bold;
+	margin-left: 0.22rem;
+}
+.zhuti .right .a .right1 .font2{
+	font-size: 0.22rem;
+	color: #ff5353;
+	/* margin-top: 0.55rem; */
+	font-weight: bold;
+	margin-top: 0.09rem;
+	margin-left: 0.22rem;
+}
+.zhuti .right .a .right1 .font3{
+	width: 0.67rem;
+	font-size: 0.3rem;
+	color: #ff5353;
+	/* margin-top: 0.55rem; */
+	font-weight: bold;
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.22rem;
+}
+.zhuti .right .a .right1 .font4{
+	width: 1.72rem;
+	font-size: 0.28rem;
+	color: #ffcfcf;
+	/* margin-top: 0.55rem; */
+	font-weight: bold;
+	float: left;
+	margin-top: 0.15rem;
+}
+.zhuti .right .a .right1 .font5{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: url('../img/gouwuche@2x.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
